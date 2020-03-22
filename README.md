@@ -1,5 +1,6 @@
 # Travel-Photo-Gallery
  Using Jquery to pop up pictures
+The project is accesible at : https://kapilgautamin.github.io/Travel-Photo-Gallery/
 
 This project builds a photo gallery using jQuery for your travel photo sharing site as shown in following picture.
 When the document is loaded, an AJAX call is made, downloads the data.json file (it contains an array of image objects) and display images on your html page. When the user hovers over the image, you will show the larger version of the image along with the caption. See instructions for details.
@@ -22,5 +23,3 @@ Main Points:
 8.	For the mouseleave event, remove the “gray” class from the square image under the mouse. Also remove the #preview<div> from the body.
 
 9.	For the mousemove event, simply set the left and top CSS properties for the #preview <div> using the same approach as described in point 6.
-
-
